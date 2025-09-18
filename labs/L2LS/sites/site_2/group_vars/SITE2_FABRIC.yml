@@ -99,3 +99,9 @@ core_interfaces:
       nodes: [ s2-spine2, WANCORE ]
       interfaces: [ Ethernet8, Ethernet2 ]
       include_in_underlay_protocol: true
+
+      # Login Banner
+banners:
+  motd: |
+    You shall not pass. Unless you are authorized. Then you shall pass.
+    EOF
